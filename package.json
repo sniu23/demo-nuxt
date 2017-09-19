@@ -1,0 +1,31 @@
+{
+  "name": "jerry",
+  "version": "1.0.0",
+  "description": "vue-elementUI-nuxt-express practice",
+  "main": "index.js",
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "3333"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "author": "shuo.niu@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "element-ui": "^1.4.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "nuxt": "^1.0.0-rc6"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6"
+  }
+}

@@ -1,0 +1,27 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# cordova:
+/hooks/*
+/platforms/*
+/plugins/*
+/public/plugins/*
+
+# editor:
+/.idea/*
+/.vscode/*
+
+# node:
+/node_modules/*
+
+# yml:
+/*.yml
+
+# logs & config:
+/log/*
+/config/*
+
+# nuxt:
+/.nuxt/*
