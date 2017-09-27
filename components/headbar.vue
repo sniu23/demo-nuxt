@@ -1,7 +1,7 @@
 <template>
     <header>
         <el-menu mode="horizontal" router>
-            <el-menu-item class="header-navicon" index="1">
+            <el-menu-item class="header-navicon" index="">
                 <el-button type="text" @click="toggle">
                     <i class="md-icon">menu</i>
                 </el-button>

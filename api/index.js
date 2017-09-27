@@ -43,6 +43,9 @@ router.get('/nav', (req, res) => {
             {name:"Post#3", path:"/post/3", children:[]}
         ]},
     ]},
+    {name:"状态回执查询", path:"/eDecQuery", children:[]},
+    {name:"状态回执查询1", path:"/eDecQuery1", children:[]},
+    {name:"查询控件", path:"/search", children:[]},
     {name:"查询", path:"/query", children:[]},
     {name:"响应式", path:"/responsive", children:[]},
     {name:"NOTFOUND", path:"/test1", children:[]}

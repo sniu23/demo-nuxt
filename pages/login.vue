@@ -1,7 +1,7 @@
 <template>
     <section class="parent">
         <el-form :model="formSign" label-position="top" class="boxSign">
-            <h1>XXXX系统</h1>
+            <div class="sys"><h1>XXXX系统</h1></div>
             <el-form-item label="用户名">
                 <el-input v-model="formSign.nam" placeholder="demo"></el-input>
             </el-form-item>
@@ -70,14 +70,18 @@ export default {
         justify-content:center;
         height: 100vh;
         .boxSign {
+            background-color: #F9FAFC;
             width: 320px;
-            border: 1px solid #20A0FF;
+            border: 1px solid #D3DCE6;
             padding: 8px 32px;
-            box-shadow: 0 0 8px #58B7FF;
+            box-shadow: 0 0 8px #E5E9F2;
             margin: 0 0 100px 0;
-        } 
+        }
     }
-       
+    .sys{
+        text-align: center;
+        color: #1D8CE0;
+    }  
 </style>
 
 
